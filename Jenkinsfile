@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // Execute Ansible playbook
                 sh '''
-                    ansible-playbook -i /var/jenkins_home/ansible playbook.yml
+                    ansible-playbook -i /var/jenkins_home/ansible/playbook.yml
                 '''
             }
         }
